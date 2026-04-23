@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园废旧物资回收服务平台</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <h1>绿色校园 · 旧物回收</h1>
+        <p>低碳环保 | 上门回收 | 资源再利用</p >
+    </header>
+
+    <!-- 功能板块 -->
+    <div class="container">
+        <div class="card" onclick="goPage('order')">
+            <h3>📦 预约回收</h3>
+            <p>线上下单，宿舍上门收取</p >
+        </div>
+        <div class="card" onclick="goPage('price')">
+            <h3>💰 回收价格</h3>
+            <p>废纸/塑料/金属/旧衣物报价</p >
+        </div>
+        <div class="card" onclick="goPage('site')">
+            <h3>📍 回收网点</h3>
+            <p>校园线下回收站点查询</p >
+        </div>
+        <div class="card" onclick="goPage('about')">
+            <h3>🌱 项目介绍</h3>
+            <p>创新创业项目理念与价值</p >
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <p>湖南林科大 · 城乡规划二班 创赛项目</p >
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

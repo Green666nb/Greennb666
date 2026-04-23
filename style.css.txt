@@ -1,0 +1,18 @@
+function goPage(type) {
+    let msg = "";
+    switch(type){
+        case "order":
+            msg = "预约回收：填写宿舍楼栋、物品类型、预约时间段，实现上门回收。";
+            break;
+        case "price":
+            msg = "参考报价：废旧纸箱0.8元/斤、塑料瓶1.2元/斤、旧衣物0.5元/斤、废铁1.5元/斤";
+            break;
+        case "site":
+            msg = "校园回收点位：一食堂后侧回收点、12栋宿舍架空层、实训楼负一楼站点";
+            break;
+        case "about":
+            msg = "本项目聚焦校园固废回收，打通「线上预约+线下上门+集中分拣」闭环，助力绿色校园建设。";
+            break;
+    }
+    alert(msg);
+}
